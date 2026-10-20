@@ -1,0 +1,14 @@
+flowchart TD
+    A[Jira backlog and sprint] --> B[Developer]
+    B --> C[Git branch, commit, pull request]
+    C --> D[GitHub repository]
+    D --> E[GitHub Actions]
+    E --> F[pytest automated tests]
+    F --> G[Docker image build]
+    G --> H[Docker Compose deployment]
+    H --> I[Student Performance FastAPI]
+    I --> J[Prometheus metrics]
+    J --> K[Grafana dashboard]
+    L[Synthetic training data] --> M[train.py and Random Forest]
+    M --> N[MLflow tracking and model registry]
+    M --> I

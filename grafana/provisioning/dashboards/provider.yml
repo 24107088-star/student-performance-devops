@@ -1,0 +1,9 @@
+apiVersion: 1
+providers:
+  - name: Student API
+    orgId: 1
+    folder: Agile Assignment
+    type: file
+    editable: true
+    options:
+      path: /etc/grafana/provisioning/dashboards
